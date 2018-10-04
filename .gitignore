@@ -33,3 +33,6 @@
 
 # examples
 example/
+
+# macOS
+*.DS_Store
