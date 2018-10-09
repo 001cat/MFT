@@ -20,4 +20,10 @@ The output text file contains all events detected, each one with format:
 
 And sac4plot will exist if you want to plot figure to compare new detected event with template. All the output will NOT be removed if you run it again, please remove them yourself if you need to run it again.
 
-
+P.S. The following warning is ok when you run example:
+	ls: ../example/DataScn/20100306/CWB.CHN1.EHE.SAC: No such file or directory
+	ls: ../example/DataScn/20100308/CWB.CHN1.EHE.SAC: No such file or directory
+	...(similar)
+and
+	mv: rename *.CC to ../example/Result/*.CC: No such file or directory
+	mv: rename *.sac to ../example/Result/*.sac: No such file or directory

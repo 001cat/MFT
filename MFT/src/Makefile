@@ -5,7 +5,7 @@ SRCS = MFTdetect.c MFTfuncs.c
 HEAD = crosscorrelation.h filt.h sac_ayu.h sacio_ayu.h timecal.h
 
 all: MFT MFT_weak MFT_partweak
-	mv MFT MFT_weak MFT_partweak ../bin
+	cp MFT MFT_weak MFT_partweak ../bin
 
 MFT: 			MFT.c $(SRCS) $(HEAD)
 	$(CC) MFT.c $(CFLAGS) -o MFT

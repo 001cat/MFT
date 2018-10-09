@@ -1,0 +1,1 @@
+Same as location3, only suppose new found event has same depth as template.
